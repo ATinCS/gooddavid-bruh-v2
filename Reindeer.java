@@ -36,19 +36,19 @@ public class Reindeer
     public String getName()
     {
         // TODO: code here
-        return null;
+        return name;
     }
     
     public boolean doesNoseGlow()
     {
         // TODO: code here
-        return false;
+        return noseGlows;
     }
     
     public int getEnergyLevel()
     {
         // TODO: code here
-        return 0;
+        return energy;
     }
     
     // TODO: Write a setter method for each instance variable
@@ -74,7 +74,7 @@ public class Reindeer
     public String toString()
     {
         // TODO: code here
-        return "interesting description";
+        return "The name of the reindeer is " +name + ". " + name +"'s energy level is " +energy + ".  Does " + name + "'s nose glow: " + noseGlows;  
     }
     
     
