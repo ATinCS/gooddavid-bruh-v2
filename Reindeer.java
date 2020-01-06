@@ -36,13 +36,13 @@ public class Reindeer
     public String getName()
     {
         // TODO: code here
-        return null;
+        return name;
     }
     
     public boolean doesNoseGlow()
     {
         // TODO: code here
-        return false;
+        return noseGlows;
     }
     
     public int getEnergyLevel()
