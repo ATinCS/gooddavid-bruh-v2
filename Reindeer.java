@@ -105,7 +105,7 @@ public class Reindeer
         }
         else if(numOfReindeer < totalLights)
         {
-            return "Reindeer are stressed from all the lights!";
+            return "Reindeer are stressed from excess lights!";
         }
         return "Reindeer are in a neutral mood!";
     }
