@@ -2,7 +2,7 @@
 /**
  * class Reindeer 
  * Learn GitHub version control for collaborative projects
- * Human Team Member Names: 
+ * Human Team Member Names: Will Z, Matilda L, Mikhael T, Jack W
  * December 19, 2019
  */
 public class Reindeer
@@ -24,11 +24,17 @@ public class Reindeer
     public Reindeer(String theName, boolean theNoseGlows, int theEnergy)
     {
         // TO DO: initialise the reindeer's attributes
-        
-        
+        name = theName;
+        noseGlows = theNoseGlows;
+        energy = theEnergy;
         
         // TO DO: update the class (static variables)
-        
+        numOfReindeer++;
+        if(noseGlows)
+        {
+            totalLights++;
+        }
+        totalEnergy += energy;
         
     }
     
@@ -80,11 +86,28 @@ public class Reindeer
     
     // method that returns the happiness of the entire team
     // of reindeer, based on any old combination of conditions
-    // and or formulas using totalNumOfReindeer, totalLights
+    // and or formulas using numOfReindeer, totalLights
     public String determineTeamHappiness()
     {
         // TODO: code here
-        return "how happy is the team of reindeer"; 
+        if(totalLights == 1)
+        {
+            return "The reindeer are happy to follow their leader!";
+        }
+        
+        if(numOfReindeer > totalLights)
+        {
+            return "Reindeer aren't happy because of a lack of lights :(";
+        }
+        else if(numOfReindeer == totalLights)
+        {
+            return "There is a perfect amount of lights and the reindeer are enjoying life :)";
+        }
+        else if(numOfReindeer < totalLights)
+        {
+            return "Reindeer are stressed from excess lights!";
+        }
+        return "Reindeer are in a neutral mood!";
     }
         
 }
