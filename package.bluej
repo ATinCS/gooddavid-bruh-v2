@@ -1,4 +1,5 @@
 #BlueJ package file
+<<<<<<< HEAD
 dependency1.from=ReindeerTester
 dependency1.to=Reindeer
 dependency1.type=UsesDependency
@@ -6,18 +7,33 @@ editor.fx.0.height=722
 editor.fx.0.width=800
 editor.fx.0.x=400
 editor.fx.0.y=84
+=======
+editor.fx.0.height=722
+editor.fx.0.width=800
+editor.fx.0.x=440
+editor.fx.0.y=98
+>>>>>>> mikhail
 objectbench.height=101
 objectbench.width=776
 package.divider.horizontal=0.6
 package.divider.vertical=0.8007380073800738
 package.editor.height=427
 package.editor.width=674
+<<<<<<< HEAD
 package.editor.x=640
 package.editor.y=173
 package.frame.height=600
 package.frame.width=800
 package.numDependencies=1
 package.numTargets=2
+=======
+package.editor.x=551
+package.editor.y=126
+package.frame.height=600
+package.frame.width=800
+package.numDependencies=0
+package.numTargets=1
+>>>>>>> mikhail
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
@@ -27,6 +43,7 @@ readme.width=47
 readme.x=10
 readme.y=10
 target1.height=50
+<<<<<<< HEAD
 target1.name=ReindeerTester
 target1.showInterface=false
 target1.type=ClassTarget
@@ -40,3 +57,11 @@ target2.type=ClassTarget
 target2.width=80
 target2.x=70
 target2.y=10
+=======
+target1.name=Reindeer
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=80
+target1.x=70
+target1.y=10
+>>>>>>> mikhail
