@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=LovejoyReinRunner
+comment0.text=\n\ LovejoyReinRunner\ creates\ three\ Reindeer\ objects\ and\ tests\ the\ functionality\ of\ all\ of\ the\ Reindeer\ Class\ methods\ \n\n\ @Lovejoy\ \n\ @182020\ \n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Tests\ the\ Reindeer\ Class\n
+numComments=2
